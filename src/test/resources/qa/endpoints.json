@@ -1,0 +1,9 @@
+{
+"BaseUrl": "https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms",
+"AddNewProgram" :"/saveprogram",
+"GETALLPROGRAMS":"/allPrograms",
+"GETALLPORGRAMSWITHUSERS":"/allProgramsWithUsers",
+"GETPROGRAMBYPROGRAMID":"/programs/",
+"LoginCredential": "/src/test/resources/qa/loginCredential.json",
+"LoginEndPoint":"/login"
+}
