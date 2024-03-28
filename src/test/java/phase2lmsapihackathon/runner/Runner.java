@@ -4,7 +4,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-		tags=("@getAllPrograms"),
+		tags=("@getUserModule or @getAllPrograms"),
 		features = {"src/test/resources/features"},
 		glue= {"phase2lmsapihackathon.steps"},
 		plugin= {"pretty"},
