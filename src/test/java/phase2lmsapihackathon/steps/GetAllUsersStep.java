@@ -1,50 +1,48 @@
 package phase2lmsapihackathon.steps;
 
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.Map;
 
-import io.cucumber.java.en.Given;
+import org.testng.Assert;
+
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.restassured.RestAssured;
-import io.restassured.response.Response;
-import io.restassured.specification.RequestSpecification;
-import phase2lmsapihackathon.endpoints.EndpointsUtils;
+import phase2lmsapihackathon.utils.LoggerLoad;
+import phase2lmsapihackathon.utils.TestBase;
 
-public class GetAllUsersStep {
-     RequestSpecification request;
-     Response response;
-     HashMap<String,String> headerMap = new HashMap<String,String>(); 
-	
-	@Given("User creates GET Request for UserAPI module {string}")
-	public void user_creates_get_request_for_user_api_module(String authStatus) throws IOException {
-		
-			AuthenticationsStep auth  = new AuthenticationsStep();
-		     String token = auth.bearerTokenAuthentication();
-				System.out.println("REsponse: "+ token);
-				
-				Map<String,Object> endPoints = 	EndpointsUtils.getJsonDataAsMap();
-				RestAssured.baseURI = endPoints.get("BaseUrl").toString();  
-				headerMap.put("Authentication", "Bearer "+ token);
-		 	    headerMap.put("Content-Type", "application/json");
-		 	    headerMap.put("Accept", "application/json");
-
-
-                // this.request = RestAssured.given();
-                		 	  // .headers(headerMap);
-		
-	   
+public class GetAllUsersStep extends TestBase{
+	TestContext testContext;
+	String baseUrl;
+     public GetAllUsersStep(TestContext testContext) throws IOException {
+		super();
+		this.testContext = testContext;
+		RestAssured.baseURI = TestBase.endPoints.get("BaseUrl").toString(); 
+		this.baseUrl =  TestBase.endPoints.get("BaseUrl").toString();
 	}
-
 	@When("User sends HTTPS Request")
 	public void user_sends_https_request() {
-	    
+	 try {	
+		testContext.response =  testContext.request
+					.when().log().all()
+					.headers(TestBase.headerMap)
+					.get(baseUrl+TestBase.endPoints.get("GetAllUsers"));	
+	 }catch (Exception ex) {
+	      LoggerLoad.logInfo(ex.getMessage());
+	      ex.printStackTrace();  
+	}      	
 	}
 
 	@Then("User receives {int} OK Status with response body.")
 	public void user_receives_ok_status_with_response_body(int expectedStatus) {
-	    
+	 try {	
+		testContext.response
+	          .then()
+	          .log().all();
+		Assert.assertEquals(false, null);
+	 }catch (Exception ex) {
+	      LoggerLoad.logInfo(ex.getMessage());
+	      ex.printStackTrace();  
+	}      	
 	}
 
 
