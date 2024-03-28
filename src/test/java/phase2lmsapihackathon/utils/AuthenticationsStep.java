@@ -3,17 +3,11 @@ package phase2lmsapihackathon.utils;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.Map;
 
 import io.restassured.RestAssured;
-import io.restassured.http.ContentType;
-import io.restassured.response.ExtractableResponse;
 import io.restassured.response.Response;
-import io.restassured.response.ResponseOptions;
 import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
-import phase2lmsapihackathon.endpoints.Endpoints;
-import phase2lmsapihackathon.endpoints.EndpointsUtils;
 
 public class AuthenticationsStep extends TestBase{
 	static RequestSpecification request;
@@ -25,7 +19,7 @@ public class AuthenticationsStep extends TestBase{
 	}
 	public static void bearerTokenAuthentication() throws IOException {
 		//token =null;
-	   if(headerMap.get("Authentication")==null) {
+	   if(headerMap.get("Authorization")==null) {
 
 		System.out.println("Authenticatio is in progress.....");
 		byte[] login = Files.readAllBytes(Paths.get(System.getProperty("user.dir")
