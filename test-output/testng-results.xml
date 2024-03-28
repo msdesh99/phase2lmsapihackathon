@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-28T10:16:30 GMT-04:00" name="Default suite" finished-at="2024-03-28T10:16:33 GMT-04:00" duration-ms="3407">
+  <suite started-at="2024-03-28T15:49:20 GMT-04:00" name="Default suite" finished-at="2024-03-28T15:49:24 GMT-04:00" duration-ms="3851">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:phase2lmsapihackathon.runner.Runner@cecf639]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:phase2lmsapihackathon.runner.Runner@5386659f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-03-28T10:16:30 GMT-04:00" name="Default test" finished-at="2024-03-28T10:16:33 GMT-04:00" duration-ms="3407">
+    <test started-at="2024-03-28T15:49:20 GMT-04:00" name="Default test" finished-at="2024-03-28T15:49:24 GMT-04:00" duration-ms="3851">
       <class name="phase2lmsapihackathon.runner.Runner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:phase2lmsapihackathon.runner.Runner@cecf639]" started-at="2024-03-28T10:16:30 GMT-04:00" name="setUpClass" finished-at="2024-03-28T10:16:30 GMT-04:00" duration-ms="210" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:phase2lmsapihackathon.runner.Runner@5386659f]" started-at="2024-03-28T15:49:20 GMT-04:00" name="setUpClass" finished-at="2024-03-28T15:49:20 GMT-04:00" duration-ms="209" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2120bed]]>
+                <![CDATA[org.testng.TestRunner@29b5533]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:phase2lmsapihackathon.runner.Runner@cecf639]" started-at="2024-03-28T10:16:30 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-28T10:16:33 GMT-04:00" duration-ms="2707" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:phase2lmsapihackathon.runner.Runner@5386659f]" started-at="2024-03-28T15:49:20 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-28T15:49:24 GMT-04:00" duration-ms="3595" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,23 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:phase2lmsapihackathon.runner.Runner@cecf639]" started-at="2024-03-28T10:16:33 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-28T10:16:33 GMT-04:00" duration-ms="430" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Check if user able to retrieve all users"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Check Users"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:phase2lmsapihackathon.runner.Runner@cecf639]" started-at="2024-03-28T10:16:33 GMT-04:00" name="tearDownClass" finished-at="2024-03-28T10:16:33 GMT-04:00" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:phase2lmsapihackathon.runner.Runner@5386659f]" started-at="2024-03-28T15:49:24 GMT-04:00" name="tearDownClass" finished-at="2024-03-28T15:49:24 GMT-04:00" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
