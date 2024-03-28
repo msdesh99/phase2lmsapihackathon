@@ -21,7 +21,7 @@ public class EndpointsUtils {
 
 public static void main(String[] args) throws IOException {
                //EndpointsUtils endpoint = new EndpointsUtils();
-              System.out.println(getJsonDataAsMap().get("BaseUrl"));   
+             // System.out.println(getJsonDataAsMap().get("BaseUrl"));   
               String env = System.getProperty("env")==null?"qa" :System.getProperty("env");
              // System.out.println("env: "+env+"dir: "+System.getProperty("user.dir"));
               

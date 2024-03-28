@@ -2,9 +2,6 @@ package phase2lmsapihackathon.steps;
 
 import java.io.IOException;
 
-import org.testng.Assert;
-
-import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.restassured.RestAssured;
 import phase2lmsapihackathon.utils.LoggerLoad;
@@ -32,18 +29,6 @@ public class GetAllUsersStep extends TestBase{
 	}      	
 	}
 
-	@Then("User receives {int} OK Status with response body.")
-	public void user_receives_ok_status_with_response_body(int expectedStatus) {
-	 try {	
-		testContext.response
-	          .then()
-	          .log().all();
-		Assert.assertEquals(false, null);
-	 }catch (Exception ex) {
-	      LoggerLoad.logInfo(ex.getMessage());
-	      ex.printStackTrace();  
-	}      	
-	}
 
 
 }

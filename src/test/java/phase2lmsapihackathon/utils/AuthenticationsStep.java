@@ -47,7 +47,7 @@ public class AuthenticationsStep extends TestBase{
  	    headerMap.put("Content-Type", "application/json");
  	    headerMap.put("Accept", "application/json");
  	  
-    	System.out.println("Responsein string: "+vResponse);
+    	//System.out.println("Responsein string: "+vResponse);
 
 	}
 	}	   
