@@ -21,7 +21,7 @@ public class ExcelUtil {
 
      */
     public List<Map<String, String>> getData(String excelFilePath, String sheetName) throws InvalidFormatException, IOException {
-        try(InputStream fis = ExcelUtil.class.getClassLoader().getResourceAsStream("ExcelDataInput.xlsx")){
+        try(InputStream fis = ExcelUtil.class.getClassLoader().getResourceAsStream(excelFilePath)){
             XSSFWorkbook workbook = new XSSFWorkbook(fis); //WorkbookFactory.create(new File(String.valueOf(is)));
             org.apache.poi.ss.usermodel.Sheet sheet = workbook.getSheet(sheetName);
             workbook.close();
