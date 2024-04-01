@@ -73,7 +73,7 @@ public class CommonSteps extends TestBase {
     @Given("User sends a request with {string} and {int}")
     public void user_sends_a_request_with_and(String sheetName, Integer rowNum) {
         try {
-            List<Map<String, String>> data = excelUtil.getData(TestBase.endPoints.get("dataInput").toString(), sheetName);
+            List<Map<String, String>> data = excelUtil.getData(TestBase.EXCEL_FILE, sheetName);
             if (data.get(rowNum).get("AuthStatus").equals("NoAuth")) {
                 headerMap.remove("Authorization");
                 testContext.request = RestAssured.given().log().all();
@@ -97,7 +97,7 @@ public class CommonSteps extends TestBase {
     @Then("User receives response with {string} and {int}")
     public void user_receives_response_with_and(String sheetName, Integer rowNum) {
         try {
-            List<Map<String, String>> data = excelUtil.getData(TestBase.endPoints.get("dataInput").toString(), sheetName);
+            List<Map<String, String>> data = excelUtil.getData(TestBase.EXCEL_FILE, sheetName);
             testContext.validResponse = testContext.response
                     .then().log().headers();
             //.assertThat().statusCode(200);

@@ -39,7 +39,7 @@ public class BatchStep extends TestBase{
     @When("User sends HTTPS Request to get batches with {string} and {int}")
     public void user_sends_https_request_to_get_batches_with_and(String sheetName, Integer rowNum) {
         try {
-            List<Map<String, String>> data = excelUtil.getData(TestBase.endPoints.get("dataInput").toString(), sheetName);
+            List<Map<String, String>> data = excelUtil.getData(TestBase.EXCEL_FILE, sheetName);
             testContext.response =  testContext.request
                     .when().log().all()
                     .headers(TestBase.headerMap)
@@ -59,7 +59,7 @@ public class BatchStep extends TestBase{
     @When("User sends GET Request to get batch info with {string} and {int}")
     public void user_sends_get_request_to_get_batch_info_with_and(String sheetName, Integer rowNum) {
         try {
-            List<Map<String, String>> data = excelUtil.getData(TestBase.endPoints.get("dataInput").toString(), sheetName);
+            List<Map<String, String>> data = excelUtil.getData(TestBase.EXCEL_FILE, sheetName);
             testContext.response =  testContext.request
                     .when().log().all()
                     .headers(TestBase.headerMap)
@@ -77,7 +77,7 @@ public class BatchStep extends TestBase{
     @When("User sends GET Request to get batch info by Name with {string} and {int}")
     public void user_sends_get_request_to_get_batch_info_by_name_with_and(String sheetName, Integer rowNum) {
         try {
-            List<Map<String, String>> data = excelUtil.getData(TestBase.endPoints.get("dataInput").toString(), sheetName);
+            List<Map<String, String>> data = excelUtil.getData(TestBase.EXCEL_FILE, sheetName);
             testContext.response =  testContext.request
                     .when().log().all()
                     .headers(TestBase.headerMap)
@@ -96,7 +96,7 @@ public class BatchStep extends TestBase{
     public void user_creates_post_request_for_the_lms_api_batch_endpoint(String Sheetname, int rownumber) throws Exception {
         AuthenticationsStep.bearerTokenAuthentication();
         Response[] responses= null;
-        List<Map<String, String>> data = excelUtil.getData(TestBase.endPoints.get("dataInput").toString(), Sheetname);
+        List<Map<String, String>> data = excelUtil.getData(TestBase.EXCEL_FILE, Sheetname);
         HashMap<String, Object> map = new HashMap<String, Object>();
         map.put("batchName", data.get(rownumber).get("batchName") + "-" + rand.nextInt(1000));
         map.put("batchDescription", data.get(rownumber).get("batchDescription"));
@@ -133,167 +133,5 @@ public class BatchStep extends TestBase{
         System.out.println();
     }
 
- 	/*@When("User sends HTTPS Request to get batches")
- 	public void user_sends_https_request_to_get_batches() {
- 		try {
- 			testContext.response =  testContext.request
- 						.when().log().all()
- 						.headers(TestBase.headerMap)
- 						.get(baseUrl+TestBase.endPoints.get("batches"));
- 			//testContext.response.then().log().all();
-			testContext.response
-					.then()
-					.log().all();
-		}catch (Exception ex) {
- 		      LoggerLoad.logInfo(ex.getMessage());
- 		      ex.printStackTrace();
- 		}
- 	}
-
-
-
-
- 	@Then("User receives OK Status with response body for batch module.")
- 	public void user_receives_ok_status_with_response_body_for_batch_module() {
- 		try {
- 			testContext.response
- 	          .then()
- 	          .log().all();
- 		 }catch (Exception ex) {
- 		      LoggerLoad.logInfo(ex.getMessage());
- 		      ex.printStackTrace();
- 		}
- 	}
-
-	@When("User sends GET Request with {string} to get batch info")
-	public void user_sends_get_request_with_to_get_batch_info(String string) {
-		try {
-			testContext.response =  testContext.request
-					.when().log().all()
-					.headers(TestBase.headerMap)
-					.get(baseUrl+TestBase.endPoints.get("getBatchByBatchId")+string);
-			testContext.response.then().log().all();
-		}catch (Exception ex) {
-			LoggerLoad.logInfo(ex.getMessage());
-			ex.printStackTrace();
-		}
-	}
-
-	*//*@When("User sends GET Request with {string} to get details batch")
-	public void user_sends_get_request_with_batch_name(String batchName) {
-		try {
-			testContext.response =  testContext.request
-					.when().log().all()
-					.headers(TestBase.headerMap)
-					.get(baseUrl+TestBase.endPoints.get("getBatchByBatchName")+batchName);
-			testContext.response.then().log().all();
-		}catch (Exception ex) {
-			LoggerLoad.logInfo(ex.getMessage());
-			ex.printStackTrace();
-		}
-	}*//*
-	@When("User posts HTTPS Request to batches")
- 	public void user_post_https_request_to_batches() {
- 		try {
- 			System.out.println("Authentication is in progress.....");
- 			Batch batch2 = new Batch("AWS-2022", "active", 2, 16306 );
-
- 			testContext.request = RestAssured.given().log().headers();
- 			testContext.response = testContext.request.header("Content-Type","application/json").body(batch2)
-    		             .when()
-    				     .post(endPoints.get("batches").toString());
- 			testContext.response.then().log().all();
- 		 }catch (Exception ex) {
- 		      LoggerLoad.logInfo(ex.getMessage());
- 		      ex.printStackTrace();
- 		}
- 	}
-
-	@Given("User creates GET Request for Batch module {string}")
-	public void user_creates_get_request_for_batch_module(String authStatus) {
-		try {
-			if (authStatus.equals("NoAuth")) {
-				headerMap.remove("Authorization");
-				testContext.request = RestAssured.given().log().all();
-			} else {
-				AuthenticationsStep.bearerTokenAuthentication();
-				testContext.request = RestAssured
-						.given()
-						.headers(TestBase.headerMap)
-						.log().headers();
-
-			}
-
-		} catch (Exception ex) {
-			LoggerLoad.logInfo(ex.getMessage());
-			ex.printStackTrace();
-		}
-	}
-
-
-	@When("User sends GET Request with {string} to get details of batch")
-	public void user_sends_get_request_with_to_get_details_of_batch(String strBatchName) {
-		try {
-			testContext.response =  testContext.request
-					.when().log().all()
-					.headers(TestBase.headerMap)
-					.get(baseUrl+TestBase.endPoints.get("getBatchByBatchName")+strBatchName);
-			testContext.response.then().log().all();
-		}catch (Exception ex) {
-			LoggerLoad.logInfo(ex.getMessage());
-			ex.printStackTrace();
-		}
-	}
-
-	@Then("User receives {string} Status with response body for {string} {string}.")
-	public void user_receives_status_with_response_body_for(String expectedStatus, String string2, String string3) {
-		try {
-			testContext.validResponse = testContext.response
-					.then().log().headers();
-			//.assertThat().statusCode(200);
-			int actualStatus = testContext.response.getStatusCode();
-			if (actualStatus == 401) {
-				TestBase.headerMap.put("Authentication", null);
-				AuthenticationsStep.bearerTokenAuthentication();
-			}
-
-			Assert.assertEquals(actualStatus, expectedStatus);
-
-		} catch (Exception ex) {
-			LoggerLoad.logInfo(ex.getMessage());
-			ex.printStackTrace();
-		}
-	}
-
-	@Then("User receives {string} Status with response body for {string}.")
-	public void user_receives_status_with_response_body_for(String expectedStatus, String string2) {
-		try {
-			testContext.validResponse = testContext.response
-					.then().log().headers();
-			//.assertThat().statusCode(200);
-			int actualStatus = testContext.response.getStatusCode();
-			if (actualStatus == 401) {
-				TestBase.headerMap.put("Authentication", null);
-				AuthenticationsStep.bearerTokenAuthentication();
-			}
-
-			Assert.assertEquals(actualStatus, Integer.parseInt(expectedStatus));
-
-		} catch (Exception ex) {
-			LoggerLoad.logInfo(ex.getMessage());
-			ex.printStackTrace();
-		}
-	}
-
-
-
-	@When("User sends HTTPS Request and  request Body with mandatory , additional  fields")
-	public void user_sends_https_request_and_request_body_with_mandatory_additional_fields() {
-		System.out.println();
-	}
-	@Then("User receives {int} Created Status with response body.")
-	public void user_receives_created_status_with_response_body(Integer int1) {
-		System.out.println();
-	}*/
 
 }

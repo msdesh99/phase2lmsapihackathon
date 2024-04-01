@@ -15,6 +15,8 @@ public class TestBase {
      public static HashMap<String,String> headerMap = new HashMap<String,String>();
     static RequestSpecBuilder req = new RequestSpecBuilder();
 
+    public static String EXCEL_FILE = "ExcelDataInput.xlsx";
+
 	public TestBase() throws IOException {
    	 endPoints = EndpointsUtils.getJsonDataAsMap();
 

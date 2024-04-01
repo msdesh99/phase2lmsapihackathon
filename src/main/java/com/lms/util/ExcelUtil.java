@@ -1,18 +1,19 @@
 package com.lms.util;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
-
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.ss.usermodel.WorkbookFactory;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
 
 public class ExcelUtil {
     public static int totalRow;
@@ -20,10 +21,13 @@ public class ExcelUtil {
 
      */
     public List<Map<String, String>> getData(String excelFilePath, String sheetName) throws InvalidFormatException, IOException {
-        Workbook workbook = WorkbookFactory.create(new File(excelFilePath));
-        org.apache.poi.ss.usermodel.Sheet sheet = workbook.getSheet(sheetName);
-        workbook.close();
-        return readSheet(sheet);
+        try(InputStream fis = ExcelUtil.class.getClassLoader().getResourceAsStream("ExcelDataInput.xlsx")){
+            XSSFWorkbook workbook = new XSSFWorkbook(fis); //WorkbookFactory.create(new File(String.valueOf(is)));
+            org.apache.poi.ss.usermodel.Sheet sheet = workbook.getSheet(sheetName);
+            workbook.close();
+            return readSheet(sheet);
+        }
+
     }
     /*
 
