@@ -6,10 +6,5 @@
 "GetProgramByProgramId":"/programs/",
 "GetAllUsers":"/users",
 "LoginCredential": "/src/test/resources/qa/loginCredential.json",
-"LoginEndPoint":"/login",
-"batches":"/batches",
-"getBatchByBatchId":"/batches/batchId/",
-"getBatchByBatchName":"/batches/batchName/",
-"batch": "/src/test/resources/qa/batch.json",
-"dataInput": "/Users/amaniknadan/git/phase2lmsapihackathon/src/main/resources/ExcelDataInput.xlsx"
+"LoginEndPoint":"/login"
 }

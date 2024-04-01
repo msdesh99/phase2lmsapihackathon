@@ -4,9 +4,11 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
+		tags=("@getUserModule or @getAllPrograms"),
 		features = {"src/test/resources/features"},
 		glue= {"phase2lmsapihackathon.steps"},
-		plugin= {"pretty", "html:target/cucumberreport.html"},
+		plugin= {"pretty"},
+		monochrome=false,
 		//strict=true,   //only juint?
 		dryRun=false 
 )
