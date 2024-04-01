@@ -1,0 +1,536 @@
+[INFO ] 2024-03-29 02:43:09.230 [main] LoggerLoad - Test Data Not Found.....
+[INFO ] 2024-03-29 02:43:09.238 [main] LoggerLoad - Cannot invoke "io.restassured.response.Response.then()" because "this.testContext.response" is null
+[INFO ] 2024-03-29 02:46:07.149 [main] LoggerLoad - TestCase:1 null-Create user POST Request with  positive Scenario
+[INFO ] 2024-03-29 02:46:59.029 [main] LoggerLoad - TestCase:1 null-Create user POST Request with  positive Scenario
+[INFO ] 2024-03-29 02:47:57.103 [main] LoggerLoad - TestCase:1 null-Create user POST Request with  positive Scenario
+[INFO ] 2024-03-29 14:47:06.551 [main] LoggerLoad - TestCase:1 null-Create user POST Request with  positive Scenario
+[INFO ] 2024-03-29 14:52:50.424 [main] LoggerLoad - TestCase:1 null-Create user POST Request with  positive Scenario
+[INFO ] 2024-03-29 15:05:53.862 [main] LoggerLoad - TestCase:1 null-Create user POST Request with  positive Scenario
+[INFO ] 2024-03-29 15:07:11.361 [main] LoggerLoad - TestCase:1 null-Create user POST Request with  positive Scenario
+[INFO ] 2024-03-29 15:16:30.274 [main] LoggerLoad - TestCase:1 null-Create user POST Request with  positive Scenario
+[INFO ] 2024-03-29 15:26:22.461 [main] LoggerLoad - Cannot invoke "String.contentEquals(java.lang.CharSequence)" because "this.authStatus" is null
+[INFO ] 2024-03-29 15:29:28.278 [main] LoggerLoad - Cannot invoke "java.lang.Integer.intValue()"
+[INFO ] 2024-03-29 15:31:13.116 [main] LoggerLoad - Cannot invoke "java.lang.Integer.intValue()"
+[INFO ] 2024-03-29 15:34:06.388 [main] LoggerLoad - class java.lang.String cannot be cast to class java.lang.Integer (java.lang.String and java.lang.Integer are in module java.base of loader 'bootstrap')
+[INFO ] 2024-03-29 15:45:44.544 [main] LoggerLoad - <============================>TestCase:1 AuthBearer-Create user POST Request with  positive Scenario
+[INFO ] 2024-03-29 16:51:10.115 [main] LoggerLoad - <============================>Testcase for Get request with Endpoints: GetAllUsers is Successfully
+[INFO ] 2024-03-29 16:51:10.420 [main] LoggerLoad - <============================>Testcase for Get request with Endpoints: GetAllRoles is Successfully
+[INFO ] 2024-03-29 16:58:54.264 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsers is Successfully <===>
+[INFO ] 2024-03-29 16:58:54.548 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllRoles is Successfully <===>
+[INFO ] 2024-03-29 19:33:27.456 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsers is Successfully <===>
+[INFO ] 2024-03-29 19:33:27.720 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllRoles is Successfully <===>
+[INFO ] 2024-03-29 19:37:29.906 [main] LoggerLoad - <===>TestCase:1 AuthBearer-Create user POST Request with  positive Scenario <===>
+[INFO ] 2024-03-29 19:37:29.942 [main] LoggerLoad - Cannot invoke "java.io.FileOutputStream.close()" because "phase2lmsapihackathon.utils.XLUtility.fo" is null
+[INFO ] 2024-03-29 19:37:30.467 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsers is Successfully <===>
+[INFO ] 2024-03-29 19:37:30.708 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllRoles is Successfully <===>
+[INFO ] 2024-03-29 19:46:06.324 [main] LoggerLoad - <===>TestCase:1 AuthBearer-Create user POST Request with  positive Scenario <===>
+[INFO ] 2024-03-29 19:46:07.241 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsers is Successfully <===>
+[INFO ] 2024-03-29 19:46:07.517 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllRoles is Successfully <===>
+[INFO ] 2024-03-29 19:52:29.823 [main] LoggerLoad - <===>TestCase:1 AuthBearer-Create user POST Request with  positive Scenario <===>
+[INFO ] 2024-03-29 19:52:30.729 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsers is Successfully <===>
+[INFO ] 2024-03-29 19:52:30.985 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllRoles is Successfully <===>
+[INFO ] 2024-03-29 19:54:49.591 [main] LoggerLoad - <===>TestCase:1 AuthBearer-Create user POST Request with  positive Scenario <===>
+[INFO ] 2024-03-29 19:54:50.705 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsers is Successfully <===>
+[INFO ] 2024-03-29 19:54:51.065 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllRoles is Successfully <===>
+[INFO ] 2024-03-29 20:01:26.911 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsers is Successfully <===>
+[INFO ] 2024-03-29 20:01:27.208 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllRoles is Successfully <===>
+[INFO ] 2024-03-29 20:24:45.982 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsers is Successfully <===>
+[INFO ] 2024-03-29 20:24:46.260 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllRoles is Successfully <===>
+[INFO ] 2024-03-29 20:24:47.272 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-29 20:25:06.688 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-29 20:26:51.768 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-29 20:32:19.115 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsers is Successfully <===>
+[INFO ] 2024-03-29 20:32:19.744 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllRoles is Successfully <===>
+[INFO ] 2024-03-29 20:32:20.724 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-29 20:32:56.622 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsers is Successfully <===>
+[INFO ] 2024-03-29 20:32:57.367 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllRoles is Successfully <===>
+[INFO ] 2024-03-29 20:32:58.367 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-29 20:37:04.366 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsersWithRole is Successfully <===>
+[INFO ] 2024-03-29 20:59:31.063 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsers is Successfully <===>
+[INFO ] 2024-03-29 20:59:32.447 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllRoles is Successfully <===>
+[INFO ] 2024-03-29 20:59:33.397 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-29 20:59:33.718 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsersWithRole is Successfully <===>
+[INFO ] 2024-03-29 21:10:41.094 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=all is Successfully <===>
+[INFO ] 2024-03-29 21:10:41.381 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R01 is Successfully <===>
+[INFO ] 2024-03-29 21:10:41.666 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R02 is Successfully <===>
+[INFO ] 2024-03-29 21:10:41.943 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R03 is Successfully <===>
+[INFO ] 2024-03-29 21:17:43.622 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-29 21:17:44.614 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=all is Successfully <===>
+[INFO ] 2024-03-29 21:17:45.431 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R01 is Successfully <===>
+[INFO ] 2024-03-29 21:17:46.286 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R02 is Successfully <===>
+[INFO ] 2024-03-29 21:17:46.903 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R03 is Successfully <===>
+[INFO ] 2024-03-29 21:17:48.139 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllRoles is Successfully <===>
+[INFO ] 2024-03-29 21:17:49.125 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsersWithRole is Successfully <===>
+[INFO ] 2024-03-29 21:18:13.520 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-29 21:18:14.014 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=all is Successfully <===>
+[INFO ] 2024-03-29 21:18:14.353 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R01 is Successfully <===>
+[INFO ] 2024-03-29 21:18:14.799 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R02 is Successfully <===>
+[INFO ] 2024-03-29 21:18:15.487 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R03 is Successfully <===>
+[INFO ] 2024-03-29 21:18:16.651 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllRoles is Successfully <===>
+[INFO ] 2024-03-29 21:18:17.378 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsersWithRole is Successfully <===>
+[INFO ] 2024-03-29 21:21:13.934 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-29 21:21:14.263 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=all is Successfully <===>
+[INFO ] 2024-03-29 21:21:14.585 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R01 is Successfully <===>
+[INFO ] 2024-03-29 21:21:14.855 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R02 is Successfully <===>
+[INFO ] 2024-03-29 21:21:15.127 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R03 is Successfully <===>
+[INFO ] 2024-03-29 21:21:15.798 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllRoles is Successfully <===>
+[INFO ] 2024-03-29 21:21:16.079 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsersWithRole is Successfully <===>
+[INFO ] 2024-03-29 21:23:59.637 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsers is Successfully <===>
+[INFO ] 2024-03-29 21:24:00.298 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllRoles is Successfully <===>
+[INFO ] 2024-03-29 21:24:00.559 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsersWithRole is Successfully <===>
+[INFO ] 2024-03-29 21:26:03.691 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsers is Successfully <===>
+[INFO ] 2024-03-29 21:26:04.291 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllRoles is Successfully <===>
+[INFO ] 2024-03-29 21:26:04.535 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsersWithRole is Successfully <===>
+[INFO ] 2024-03-29 21:26:05.790 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-29 21:26:06.083 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=all is Successfully <===>
+[INFO ] 2024-03-29 21:26:06.308 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R01 is Successfully <===>
+[INFO ] 2024-03-29 21:26:06.577 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R02 is Successfully <===>
+[INFO ] 2024-03-29 21:26:06.843 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R03 is Successfully <===>
+[INFO ] 2024-03-29 21:28:25.965 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsers is Successfully <===>
+[INFO ] 2024-03-29 21:28:26.594 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllRoles is Successfully <===>
+[INFO ] 2024-03-29 21:28:26.820 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsersWithRole is Successfully <===>
+[INFO ] 2024-03-29 21:28:28.203 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-29 21:28:28.523 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=all is Successfully <===>
+[INFO ] 2024-03-29 21:28:28.754 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R01 is Successfully <===>
+[INFO ] 2024-03-29 21:28:28.988 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R02 is Successfully <===>
+[INFO ] 2024-03-29 21:28:29.234 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R03 is Successfully <===>
+[INFO ] 2024-03-29 22:09:25.486 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsers is Successfully <===>
+[INFO ] 2024-03-29 22:09:26.164 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllRoles is Successfully <===>
+[INFO ] 2024-03-29 22:09:26.454 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsersWithRole is Successfully <===>
+[INFO ] 2024-03-29 22:09:27.697 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-29 22:09:28.078 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=all is Successfully <===>
+[INFO ] 2024-03-29 22:09:28.325 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R01 is Successfully <===>
+[INFO ] 2024-03-29 22:09:28.578 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R02 is Successfully <===>
+[INFO ] 2024-03-29 22:09:28.821 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R03 is Successfully <===>
+[INFO ] 2024-03-29 22:10:02.515 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsers is Successfully <===>
+[INFO ] 2024-03-29 22:10:03.160 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllRoles is Successfully <===>
+[INFO ] 2024-03-29 22:10:03.382 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsersWithRole is Successfully <===>
+[INFO ] 2024-03-29 22:10:04.252 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-29 22:10:04.495 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=all is Successfully <===>
+[INFO ] 2024-03-29 22:10:04.706 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R01 is Successfully <===>
+[INFO ] 2024-03-29 22:10:04.953 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R02 is Successfully <===>
+[INFO ] 2024-03-29 22:10:05.186 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R03 is Successfully <===>
+[INFO ] 2024-03-29 22:12:52.970 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsers is Successfully <===>
+[INFO ] 2024-03-29 22:12:54.714 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllRoles is Successfully <===>
+[INFO ] 2024-03-29 22:12:55.039 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsersWithRole is Successfully <===>
+[INFO ] 2024-03-29 22:12:56.170 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-29 22:12:56.468 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=all is Successfully <===>
+[INFO ] 2024-03-29 22:12:56.759 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R01 is Successfully <===>
+[INFO ] 2024-03-29 22:12:57.097 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R02 is Successfully <===>
+[INFO ] 2024-03-29 22:12:57.362 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R03 is Successfully <===>
+[INFO ] 2024-03-29 22:13:48.305 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsers is Successfully <===>
+[INFO ] 2024-03-29 22:13:48.997 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllRoles is Successfully <===>
+[INFO ] 2024-03-29 22:13:49.214 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsersWithRole is Successfully <===>
+[INFO ] 2024-03-29 22:13:50.111 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-29 22:13:50.438 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=all is Successfully <===>
+[INFO ] 2024-03-29 22:13:50.700 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R01 is Successfully <===>
+[INFO ] 2024-03-29 22:13:51.001 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R02 is Successfully <===>
+[INFO ] 2024-03-29 22:13:51.292 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R03 is Successfully <===>
+[INFO ] 2024-03-29 22:22:37.985 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsers is Successfully <===>
+[INFO ] 2024-03-29 22:22:38.663 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllRoles is Successfully <===>
+[INFO ] 2024-03-29 22:22:38.947 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsersWithRole is Successfully <===>
+[INFO ] 2024-03-29 22:22:39.930 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-29 22:22:40.204 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=all is Successfully <===>
+[INFO ] 2024-03-29 22:22:40.450 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R01 is Successfully <===>
+[INFO ] 2024-03-29 22:22:40.710 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R02 is Successfully <===>
+[INFO ] 2024-03-29 22:22:40.908 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R03 is Successfully <===>
+[INFO ] 2024-03-29 22:36:38.597 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsers is Successfully <===>
+[INFO ] 2024-03-29 22:36:39.210 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllRoles is Successfully <===>
+[INFO ] 2024-03-29 22:36:39.430 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsersWithRole is Successfully <===>
+[INFO ] 2024-03-29 22:36:40.272 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-29 22:36:40.492 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=all is Successfully <===>
+[INFO ] 2024-03-29 22:36:40.726 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R01 is Successfully <===>
+[INFO ] 2024-03-29 22:36:41.357 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R02 is Successfully <===>
+[INFO ] 2024-03-29 22:36:41.596 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R03 is Successfully <===>
+[INFO ] 2024-03-29 22:37:19.726 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsers is Successfully <===>
+[INFO ] 2024-03-29 22:37:20.367 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllRoles is Successfully <===>
+[INFO ] 2024-03-29 22:37:20.608 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsersWithRole is Successfully <===>
+[INFO ] 2024-03-29 22:37:21.427 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-29 22:37:21.673 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=all is Successfully <===>
+[INFO ] 2024-03-29 22:37:21.906 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R01 is Successfully <===>
+[INFO ] 2024-03-29 22:37:22.143 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R02 is Successfully <===>
+[INFO ] 2024-03-29 22:37:22.380 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R03 is Successfully <===>
+[INFO ] 2024-03-29 22:39:54.032 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsers is Successfully <===>
+[INFO ] 2024-03-29 22:39:54.654 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllRoles is Successfully <===>
+[INFO ] 2024-03-29 22:39:54.921 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsersWithRole is Successfully <===>
+[INFO ] 2024-03-29 22:39:55.750 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-29 22:39:55.985 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=all is Successfully <===>
+[INFO ] 2024-03-29 22:39:56.211 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R01 is Successfully <===>
+[INFO ] 2024-03-29 22:39:56.455 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R02 is Successfully <===>
+[INFO ] 2024-03-29 22:39:56.739 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R03 is Successfully <===>
+[INFO ] 2024-03-29 22:45:41.994 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsers is Successfully <===>
+[INFO ] 2024-03-29 22:45:42.627 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllRoles is Successfully <===>
+[INFO ] 2024-03-29 22:45:42.883 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsersWithRole is Successfully <===>
+[INFO ] 2024-03-29 22:45:43.700 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-29 22:45:43.954 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=all is Successfully <===>
+[INFO ] 2024-03-29 22:45:44.198 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R01 is Successfully <===>
+[INFO ] 2024-03-29 22:45:44.431 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R02 is Successfully <===>
+[INFO ] 2024-03-29 22:45:44.759 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R03 is Successfully <===>
+[INFO ] 2024-03-29 23:05:47.689 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsers is Successfully <===>
+[INFO ] 2024-03-29 23:05:48.813 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllRoles is Successfully <===>
+[INFO ] 2024-03-29 23:05:49.071 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsersWithRole is Successfully <===>
+[INFO ] 2024-03-29 23:05:50.495 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-29 23:05:50.742 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=all is Successfully <===>
+[INFO ] 2024-03-29 23:05:50.950 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R01 is Successfully <===>
+[INFO ] 2024-03-29 23:05:51.170 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R02 is Successfully <===>
+[INFO ] 2024-03-29 23:05:51.472 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R03 is Successfully <===>
+[INFO ] 2024-03-29 23:12:10.065 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsers is Successfully <===>
+[INFO ] 2024-03-29 23:12:11.929 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllRoles is Successfully <===>
+[INFO ] 2024-03-29 23:12:12.170 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsersWithRole is Successfully <===>
+[INFO ] 2024-03-29 23:12:13.051 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-29 23:12:13.303 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=all is Successfully <===>
+[INFO ] 2024-03-29 23:12:13.543 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R01 is Successfully <===>
+[INFO ] 2024-03-29 23:12:13.780 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R02 is Successfully <===>
+[INFO ] 2024-03-29 23:12:13.987 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=R03 is Successfully <===>
+[INFO ] 2024-03-29 23:44:24.133 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsers is Successfully <===>
+[INFO ] 2024-03-29 23:44:24.791 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllRoles is Successfully <===>
+[INFO ] 2024-03-29 23:44:25.031 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsersWithRole is Successfully <===>
+[INFO ] 2024-03-29 23:44:25.951 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUsersByRoleIdV2 is Successfully <===>
+[INFO ] 2024-03-29 23:45:44.960 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUsersByRoleIdV2 is Successfully <===>
+[INFO ] 2024-03-29 23:49:03.449 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsers is Successfully <===>
+[INFO ] 2024-03-29 23:49:04.099 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllRoles is Successfully <===>
+[INFO ] 2024-03-29 23:49:04.336 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsersWithRole is Successfully <===>
+[INFO ] 2024-03-29 23:49:05.108 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUsersByRoleIdV2 is Successfully <===>
+[INFO ] 2024-03-29 23:49:06.074 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-29 23:52:11.358 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsers is Successfully <===>
+[INFO ] 2024-03-29 23:52:12.008 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllRoles is Successfully <===>
+[INFO ] 2024-03-29 23:52:12.402 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsersWithRole is Successfully <===>
+[INFO ] 2024-03-29 23:52:13.604 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUsersByRoleIdV2 is Successfully <===>
+[INFO ] 2024-03-29 23:52:14.514 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-29 23:55:37.683 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsers is Successfully <===>
+[INFO ] 2024-03-29 23:55:38.262 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllRoles is Successfully <===>
+[INFO ] 2024-03-29 23:55:38.480 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsersWithRole is Successfully <===>
+[INFO ] 2024-03-29 23:55:39.484 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUsersByRoleIdV2 is Successfully <===>
+[INFO ] 2024-03-29 23:55:40.386 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-30 07:52:29.410 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsers is Successfully <===>
+[INFO ] 2024-03-30 07:52:30.403 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllRoles is Successfully <===>
+[INFO ] 2024-03-30 07:52:30.689 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsersWithRole is Successfully <===>
+[INFO ] 2024-03-30 07:52:31.517 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUsersByRoleIdV2 is Successfully <===>
+[INFO ] 2024-03-30 07:52:32.547 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-30 07:53:11.672 [main] LoggerLoad - <===>TestCase:1 AuthBearer-Create user POST Request with  positive Scenario <===>
+[INFO ] 2024-03-30 09:59:27.790 [main] LoggerLoad - <===>TestCase:1 AuthBearer-Create user POST Request with  positive Scenario <===>
+[INFO ] 2024-03-30 10:00:49.612 [main] LoggerLoad - <===>TestCase:1 AuthBearer-Create user POST Request with  positive Scenario <===>
+[INFO ] 2024-03-30 10:28:41.340 [main] LoggerLoad - <===>TestCase:1 AuthBearer-Create user POST Request with  positive Scenario <===>
+[INFO ] 2024-03-30 10:45:26.008 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-30 10:58:47.627 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsersWithRole is Successfully <===>
+[INFO ] 2024-03-30 10:59:39.695 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllRoles is Successfully <===>
+[INFO ] 2024-03-30 11:35:52.012 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-30 11:37:36.488 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-30 11:39:33.215 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-30 11:40:23.949 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-30 11:44:16.224 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-30 11:45:38.758 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-30 11:50:14.013 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-30 12:14:28.134 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-30 12:17:13.115 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-30 12:18:29.500 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-30 12:19:13.268 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-30 14:17:41.062 [main] LoggerLoad - <===>TestCase:1 AuthBearer-Create user POST Request with  positive Scenario <===>
+[INFO ] 2024-03-30 14:19:04.721 [main] LoggerLoad - <===>TestCase:1 AuthBearer-Create user POST Request with  positive Scenario <===>
+[INFO ] 2024-03-30 14:19:04.766 [main] LoggerLoad - Cannot invoke "java.io.FileOutputStream.close()" because "phase2lmsapihackathon.utils.XLUtility.fo" is null
+[INFO ] 2024-03-30 14:23:52.400 [main] LoggerLoad - <===>TestCase:1 AuthBearer-Create user POST Request with  positive Scenario <===>
+[INFO ] 2024-03-30 21:09:49.804 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-30 21:18:52.781 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-30 21:21:00.503 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-30 21:25:13.816 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-30 21:29:52.951 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-30 21:31:06.609 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-30 22:33:49.038 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-30 22:38:39.423 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-30 22:44:16.019 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-30 22:44:59.670 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-30 22:45:58.577 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-30 22:46:58.242 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-30 22:48:54.116 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-30 22:49:41.233 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-30 22:55:14.271 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-30 22:56:51.796 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-30 23:07:39.732 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-30 23:10:36.932 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-30 23:13:44.278 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-30 23:15:56.521 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-30 23:19:01.721 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-30 23:25:20.484 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-30 23:28:42.432 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-30 23:32:21.828 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-30 23:33:50.989 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-30 23:37:36.047 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-30 23:39:04.845 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-30 23:39:43.195 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-30 23:40:10.794 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 07:10:00.880 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 07:10:26.156 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 07:10:58.341 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 07:18:11.205 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 07:19:18.172 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 07:20:50.456 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 07:22:56.456 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 07:24:28.210 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 07:28:07.065 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 07:29:04.987 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 07:30:15.156 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 07:33:30.790 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 07:34:21.859 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 07:35:14.535 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 07:38:10.565 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 07:38:57.788 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 07:39:32.157 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 07:40:07.740 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 07:41:37.075 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 07:42:29.208 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 07:47:30.297 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 07:49:50.207 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 07:51:05.353 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 08:04:04.021 [main] LoggerLoad - class java.util.LinkedHashMap cannot be cast to class java.lang.String (java.util.LinkedHashMap and java.lang.String are in module java.base of loader 'bootstrap')
+[INFO ] 2024-03-31 08:05:28.003 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 08:15:10.684 [main] LoggerLoad - class java.util.LinkedHashMap cannot be cast to class [[Ljava.lang.String; (java.util.LinkedHashMap and [[Ljava.lang.String; are in module java.base of loader 'bootstrap')
+[INFO ] 2024-03-31 08:34:39.104 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 08:50:27.792 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 09:14:34.968 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 09:20:13.639 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 09:30:02.923 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 09:30:56.306 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 09:31:43.548 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 09:34:04.961 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 09:37:02.570 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 09:38:02.915 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 10:35:44.489 [main] LoggerLoad - <===>TestCase:1 AuthBearer-Create user POST Request with  positive Scenario <===>
+[INFO ] 2024-03-31 10:35:44.598 [main] LoggerLoad - Cannot invoke "java.io.FileOutputStream.close()" because "phase2lmsapihackathon.utils.XLUtility.fo" is null
+[INFO ] 2024-03-31 10:37:48.818 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 10:39:29.214 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 10:40:07.044 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 10:44:55.699 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 10:48:38.811 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 10:50:40.414 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 10:51:46.105 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 10:52:34.383 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 10:54:00.139 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 10:55:01.604 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 10:56:52.577 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 11:01:21.617 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 11:02:16.522 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 11:03:13.193 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 11:04:06.319 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 11:08:29.765 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 11:09:02.637 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 11:09:45.519 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 11:10:08.661 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 11:11:09.620 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 11:13:17.987 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 11:14:39.951 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 11:15:35.618 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 11:17:07.174 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 11:20:33.982 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 11:22:30.498 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 11:26:48.792 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 13:56:53.291 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 14:02:32.636 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 14:06:01.339 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 14:08:46.232 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 14:09:18.425 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 14:15:21.450 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 14:19:01.827 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 14:22:19.410 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 14:25:00.191 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 14:25:59.070 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 14:27:46.067 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 14:28:27.945 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 14:29:11.650 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 14:29:47.720 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 14:30:51.844 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 14:35:07.216 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 14:35:39.751 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 14:36:30.940 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 14:36:52.870 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 14:37:43.115 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 14:38:15.045 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 14:39:13.243 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 15:01:05.408 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 15:03:16.921 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 15:06:33.156 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 15:14:32.395 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 15:15:46.397 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 15:17:18.970 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 15:24:13.186 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 15:25:52.586 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 15:29:42.305 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 15:31:13.578 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 15:33:53.538 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 15:35:47.911 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 15:37:01.178 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 15:38:55.802 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 15:40:07.180 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 15:41:02.633 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 15:42:12.866 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 15:43:00.847 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 15:44:13.028 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 15:45:43.188 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 15:47:17.427 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 15:48:11.153 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 15:49:02.417 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 16:47:45.499 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 16:49:20.635 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 16:50:58.818 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 16:55:16.127 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 17:00:17.369 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 17:06:14.411 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 17:06:53.931 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 17:07:57.623 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 17:09:52.851 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 17:24:54.791 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 17:28:46.122 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 17:30:23.224 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 17:31:07.145 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 17:32:16.546 [main] LoggerLoad - <===>TestCase:1 AuthBearer-Create user POST Request with  positive Scenario <===>
+[INFO ] 2024-03-31 17:33:22.662 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 20:32:02.111 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 20:35:06.922 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 20:36:40.221 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 20:39:04.696 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 20:42:40.520 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 21:13:40.142 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 21:15:55.802 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 21:19:05.513 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 21:20:47.627 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 21:22:20.943 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 21:27:27.593 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 21:31:37.895 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 22:31:17.984 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 22:32:59.005 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 22:43:38.569 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 23:16:14.850 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 23:19:05.370 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 23:20:05.868 [main] LoggerLoad - C:\eclipse\eclipse-workspace\NumpyNinja-APITest\phase2lmsapihackathonlogs\restassuredlog\logFile.txt (The system cannot find the path specified)
+[INFO ] 2024-03-31 23:20:47.572 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 23:23:08.284 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 23:31:41.252 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 23:33:29.438 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 23:33:51.151 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 23:34:23.485 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 23:35:45.582 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 23:38:10.084 [main] LoggerLoad - <===>TestCase:1 AuthBearer-Create user POST Request with  positive Scenario <===>
+[INFO ] 2024-03-31 23:38:11.141 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 23:47:14.487 [main] LoggerLoad - <===>TestCase:1 AuthBearer-Create user POST Request with  positive Scenario <===>
+[INFO ] 2024-03-31 23:47:15.221 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 23:48:36.711 [main] LoggerLoad - <===>TestCase:1 AuthBearer-Create user POST Request with  positive Scenario <===>
+[INFO ] 2024-03-31 23:48:37.342 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 23:49:31.315 [main] LoggerLoad - <===>TestCase:1 AuthBearer-Create user POST Request with  positive Scenario <===>
+[INFO ] 2024-03-31 23:49:31.996 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-03-31 23:52:05.433 [main] LoggerLoad - <===>TestCase:1 AuthBearer-Create user POST Request with  positive Scenario <===>
+[INFO ] 2024-03-31 23:52:06.095 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 10:02:06.693 [main] LoggerLoad - <===>TestCase:1 AuthBearer-Create user POST Request with  positive Scenario <===>
+[INFO ] 2024-04-01 10:02:07.321 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 10:43:44.910 [main] LoggerLoad - <===>TestCase:1 AuthBearer-Create user POST Request with  positive Scenario <===>
+[INFO ] 2024-04-01 10:43:45.966 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 10:44:44.393 [main] LoggerLoad - <===>TestCase:1 AuthBearer-Create user POST Request with  positive Scenario <===>
+[INFO ] 2024-04-01 10:44:45.195 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 10:52:14.949 [main] LoggerLoad - <===>TestCase:1 AuthBearer-Create user POST Request with  positive Scenario <===>
+[INFO ] 2024-04-01 10:52:15.722 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 10:54:49.879 [main] LoggerLoad - <===>TestCase:1 AuthBearer-Create user POST Request with  positive Scenario <===>
+[INFO ] 2024-04-01 10:54:50.664 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 13:39:59.422 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 14:07:18.476 [main] LoggerLoad - null
+[INFO ] 2024-04-01 14:12:31.822 [main] LoggerLoad - null
+[INFO ] 2024-04-01 14:14:23.024 [main] LoggerLoad - null
+[INFO ] 2024-04-01 14:18:57.067 [main] LoggerLoad - null
+[INFO ] 2024-04-01 14:19:44.488 [main] LoggerLoad - null
+[INFO ] 2024-04-01 14:21:39.679 [main] LoggerLoad - null
+[INFO ] 2024-04-01 14:33:31.278 [main] LoggerLoad - null
+[INFO ] 2024-04-01 14:37:42.837 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 14:38:42.682 [main] LoggerLoad - null
+[INFO ] 2024-04-01 14:40:04.711 [main] LoggerLoad - null
+[INFO ] 2024-04-01 14:41:32.023 [main] LoggerLoad - null
+[INFO ] 2024-04-01 14:42:26.828 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 14:45:26.822 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 14:50:40.319 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 14:56:43.621 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 14:57:58.734 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 14:58:41.519 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 15:07:38.136 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 15:25:27.651 [main] LoggerLoad - <===>TestCase:1 AuthBearer-Create user POST Request with  positive Scenario <===>
+[INFO ] 2024-04-01 15:31:28.681 [main] LoggerLoad - <===>TestCase:1 AuthBearer-Create user POST Request with  positive Scenario <===>
+[INFO ] 2024-04-01 15:31:29.431 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 15:46:09.536 [main] LoggerLoad - <===>TestCase:1 AuthBearer-Create user POST Request with  positive Scenario <===>
+[INFO ] 2024-04-01 15:46:10.112 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 15:47:48.136 [main] LoggerLoad - <===>TestCase:1 AuthBearer-Create user POST Request with  positive Scenario <===>
+[INFO ] 2024-04-01 15:47:48.779 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 15:48:27.549 [main] LoggerLoad - <===>TestCase:1 AuthBearer-Create user POST Request with  positive Scenario <===>
+[INFO ] 2024-04-01 15:48:28.670 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 15:51:26.086 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsers is Successfully <===>
+[INFO ] 2024-04-01 15:51:26.431 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllRoles is Successfully <===>
+[INFO ] 2024-04-01 15:51:27.915 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsersWithRole is Successfully <===>
+[INFO ] 2024-04-01 15:51:29.352 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUsersByRoleIdV2 is Successfully <===>
+[INFO ] 2024-04-01 15:51:30.361 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 16:23:35.455 [main] LoggerLoad - Cannot invoke "java.io.FileOutputStream.close()" because "phase2lmsapihackathon.utils.XLUtility.fo" is null
+[INFO ] 2024-04-01 16:23:35.492 [main] LoggerLoad - Cannot invoke "java.io.FileOutputStream.close()" because "phase2lmsapihackathon.utils.XLUtility.fo" is null
+[INFO ] 2024-04-01 16:28:59.584 [main] LoggerLoad - Cannot write data, document seems to have been closed already
+[INFO ] 2024-04-01 17:20:58.092 [main] LoggerLoad - Cannot parse null string
+[INFO ] 2024-04-01 17:20:58.115 [main] LoggerLoad - Cannot parse null string
+[INFO ] 2024-04-01 17:25:32.786 [main] LoggerLoad - Cannot parse null string
+[INFO ] 2024-04-01 17:25:32.809 [main] LoggerLoad - Cannot parse null string
+[INFO ] 2024-04-01 17:38:58.680 [main] LoggerLoad - Cannot write data, document seems to have been closed already
+[INFO ] 2024-04-01 17:48:05.447 [main] LoggerLoad - Cannot invoke "org.apache.poi.xssf.usermodel.XSSFCell.setCellValue(String)" because the return value of "org.apache.poi.xssf.usermodel.XSSFRow.getCell(int)" is null
+[INFO ] 2024-04-01 17:55:21.802 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 17:56:59.611 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 17:56:59.980 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 18:02:01.633 [main] LoggerLoad - Cannot invoke "Object.toString()" because the return value of "java.util.HashMap.get(Object)" is null
+[INFO ] 2024-04-01 18:02:02.168 [main] LoggerLoad - Cannot invoke "Object.toString()" because the return value of "java.util.HashMap.get(Object)" is null
+[INFO ] 2024-04-01 18:02:51.189 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 18:02:51.642 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 18:03:40.005 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 18:03:40.990 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 18:09:49.982 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 18:09:50.586 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 18:14:21.919 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 18:14:22.449 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 18:18:59.203 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 18:19:00.560 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 18:20:52.545 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 18:20:53.837 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 18:22:38.034 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 18:22:39.418 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 18:24:26.486 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 18:24:27.762 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 18:26:38.009 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 18:26:39.235 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 18:27:42.571 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 18:27:43.757 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 18:31:18.203 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 18:31:19.326 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 18:33:35.309 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 18:33:37.382 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 18:34:29.232 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 18:34:30.910 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 18:35:12.560 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 18:35:16.559 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 18:36:06.404 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 18:36:12.976 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 18:49:33.452 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 18:49:34.709 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 18:50:29.252 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 18:50:30.194 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 18:58:43.359 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 18:58:43.888 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 19:00:00.839 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 19:00:18.121 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 19:00:18.981 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 19:11:16.614 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 19:11:18.199 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 19:12:04.211 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 19:12:05.066 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 19:17:07.124 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 19:17:08.751 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 19:18:57.163 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 19:18:58.009 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 19:21:40.033 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 19:49:00.743 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 19:52:03.164 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsers is Successfully <===>
+[INFO ] 2024-04-01 19:52:03.554 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllRoles is Successfully <===>
+[INFO ] 2024-04-01 19:52:05.152 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsersWithRole is Successfully <===>
+[INFO ] 2024-04-01 19:52:06.968 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUsersByRoleIdV2 is Successfully <===>
+[INFO ] 2024-04-01 19:52:07.920 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-01 19:52:39.042 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsers is Successfully <===>
+[INFO ] 2024-04-01 19:52:39.449 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllRoles is Successfully <===>
+[INFO ] 2024-04-01 19:52:41.119 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsersWithRole is Successfully <===>
+[INFO ] 2024-04-01 19:52:42.963 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUsersByRoleIdV2 is Successfully <===>
+[INFO ] 2024-04-01 19:52:43.910 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>

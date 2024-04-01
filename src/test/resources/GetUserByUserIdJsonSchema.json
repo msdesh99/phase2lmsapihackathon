@@ -1,0 +1,199 @@
+{
+	"definitions": {},
+	"$schema": "http://json-schema.org/draft-07/schema#", 
+	"$id": "https://example.com/object1711993322.json", 
+	"title": "Root", 
+	"type": "object",
+	"required": [
+		"user",
+		"roles"
+	],
+	"properties": {
+		"user": {
+			"$id": "#root/user", 
+			"title": "User", 
+			"type": "object",
+			"required": [
+				"userId",
+				"userFirstName",
+				"userLastName",
+				"userMiddleName",
+				"userPhoneNumber",
+				"userLocation",
+				"userTimeZone",
+				"userLinkedinUrl",
+				"userEduUg",
+				"userEduPg",
+				"userComments",
+				"userVisaStatus",
+				"userLoginEmail"
+			],
+			"properties": {
+				"userId": {
+					"$id": "#root/user/userId", 
+					"title": "Userid", 
+					"type": "string",
+					"default": "",
+					"examples": [
+						"U1157"
+					],
+					"pattern": "^.*$"
+				},
+				"userFirstName": {
+					"$id": "#root/user/userFirstName", 
+					"title": "Userfirstname", 
+					"type": "string",
+					"default": "",
+					"examples": [
+						"TeamTwoFirstNew"
+					],
+					"pattern": "^.*$"
+				},
+				"userLastName": {
+					"$id": "#root/user/userLastName", 
+					"title": "Userlastname", 
+					"type": "string",
+					"default": "",
+					"examples": [
+						"TeamTwoLastNew3"
+					],
+					"pattern": "^.*$"
+				},
+				"userMiddleName": {
+					"$id": "#root/user/userMiddleName", 
+					"title": "Usermiddlename", 
+					"type": "string",
+					"default": "",
+					"examples": [
+						"TeamTwoMiddle"
+					],
+					"pattern": "^.*$"
+				},
+				"userPhoneNumber": {
+					"$id": "#root/user/userPhoneNumber", 
+					"title": "Userphonenumber", 
+					"type": "integer",
+					"examples": [
+						1234467860
+					],
+					"default": 0
+				},
+				"userLocation": {
+					"$id": "#root/user/userLocation", 
+					"title": "Userlocation", 
+					"type": "string",
+					"default": "",
+					"examples": [
+						"USA"
+					],
+					"pattern": "^.*$"
+				},
+				"userTimeZone": {
+					"$id": "#root/user/userTimeZone", 
+					"title": "Usertimezone", 
+					"type": "string",
+					"default": "",
+					"examples": [
+						"EST"
+					],
+					"pattern": "^.*$"
+				},
+				"userLinkedinUrl": {
+					"$id": "#root/user/userLinkedinUrl", 
+					"title": "Userlinkedinurl", 
+					"type": "string",
+					"default": "",
+					"examples": [
+						"www.linkedin.com/team2"
+					],
+					"pattern": "^.*$"
+				},
+				"userEduUg": {
+					"$id": "#root/user/userEduUg", 
+					"title": "Usereduug", 
+					"type": "string",
+					"default": "",
+					"examples": [
+						"BE"
+					],
+					"pattern": "^.*$"
+				},
+				"userEduPg": {
+					"$id": "#root/user/userEduPg", 
+					"title": "Useredupg", 
+					"type": "string",
+					"default": "",
+					"examples": [
+						"ME"
+					],
+					"pattern": "^.*$"
+				},
+				"userComments": {
+					"$id": "#root/user/userComments", 
+					"title": "Usercomments", 
+					"type": "string",
+					"default": "",
+					"examples": [
+						"Team2"
+					],
+					"pattern": "^.*$"
+				},
+				"userVisaStatus": {
+					"$id": "#root/user/userVisaStatus", 
+					"title": "Uservisastatus", 
+					"type": "string",
+					"default": "",
+					"examples": [
+						"H4-EAD"
+					],
+					"pattern": "^.*$"
+				},
+				"userLoginEmail": {
+					"$id": "#root/user/userLoginEmail", 
+					"title": "Userloginemail", 
+					"type": "null",
+					"default": null
+				}
+			}
+		}
+,
+		"roles": {
+			"$id": "#root/roles", 
+			"title": "Roles", 
+			"type": "array",
+			"default": [],
+			"items":{
+				"$id": "#root/roles/items", 
+				"title": "Items", 
+				"type": "object",
+				"required": [
+					"roleId",
+					"userRoleStatus"
+				],
+				"properties": {
+					"roleId": {
+						"$id": "#root/roles/items/roleId", 
+						"title": "Roleid", 
+						"type": "string",
+						"default": "",
+						"examples": [
+							"R02"
+						],
+						"pattern": "^.*$"
+					},
+					"userRoleStatus": {
+						"$id": "#root/roles/items/userRoleStatus", 
+						"title": "Userrolestatus", 
+						"type": "string",
+						"default": "",
+						"examples": [
+							"Inactive"
+						],
+						"pattern": "^.*$"
+					}
+				}
+			}
+
+		}
+	}
+}
