@@ -7,6 +7,7 @@ import io.cucumber.java.en.When;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
+import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import phase2lmsapihackathon.utils.AuthenticationsStep;
 import phase2lmsapihackathon.utils.LoggerLoad;
 import phase2lmsapihackathon.utils.TestBase;
@@ -132,6 +133,70 @@ public class BatchStep extends TestBase{
     public void user_receives_created_status_with_response_body(Integer int1) {
         System.out.println();
     }
+
+    @Given("User creates GET Request with {string} and {int}")
+    public void user_creates_get_request_with_and(String string, Integer int1) {
+
+
+    }
+    @When("User sends GET Request to get batch info by programId with {string} and {int}")
+    public void user_sends_get_request_to_get_batch_info_by_program_id_with_and(String sheetName, Integer rowNum) {
+
+        try {
+            List<Map<String, String>> data = excelUtil.getData(TestBase.EXCEL_FILE, sheetName);
+            testContext.response =  RestAssured.given().headers(TestBase.headerMap)
+//                    .get()
+
+
+//                    testContext.request
+//                    .when().log().all()
+//                    .headers(TestBase.headerMap)
+                    .get(data.get(rowNum).get("baseUrl")+data.get(rowNum).get("endPoint")+data.get(rowNum).get("programId"));
+            testContext.response.then().log().all();
+
+
+        } catch (InvalidFormatException e) {
+            throw new RuntimeException(e);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
+
+    }
+    @Given("User creates PUT Request {string} and {int} for the LMS API batch endpoint with valid BatchId and Data")
+    public void user_creates_put_request_and_for_the_lms_api_batch_endpoint_with_valid_batch_id_and_data(String sheetName, Integer rownumber) throws IOException, InvalidFormatException {
+
+        Response[] responses= null;
+        List<Map<String, String>> data = excelUtil.getData(TestBase.EXCEL_FILE, sheetName);
+        if (data.get(rownumber).get("AuthStatus").equalsIgnoreCase("withBasicAuth"))
+            AuthenticationsStep.bearerTokenAuthentication();
+        HashMap<String, Object> map = new HashMap<String, Object>();
+        map.put("batchName", data.get(rownumber).get("batchName") + "-" + rand.nextInt(1000));
+        map.put("batchDescription", data.get(rownumber).get("batchDescription"));
+        map.put("batchNoOfClasses",data.get(rownumber).get("batchNoOfClasses"));
+        map.put("programId", data.get(rownumber).get("programId"));
+        map.put("programName", data.get(rownumber).get("programName"));
+        map.put("batchStatus", data.get(rownumber).get("status"));
+        response = RestAssured.given().headers(TestBase.headerMap)
+                .spec(createBatch())
+                .body(map)
+                .when().put();
+        response.then().log().all();
+        if(responses==null) {
+            responses=new Response[data.size()];
+        }
+        responses[rownumber]=response;
+        response.then().log().all();
+    }
+    @When("User sends HTTPS Request for update batch with {string} and {int}")
+    public void user_sends_https_request_for_update_batch_with_and(String sheetName, Integer rowNum) {
+    }
+
+
+
+
+
+
 
 
 }
