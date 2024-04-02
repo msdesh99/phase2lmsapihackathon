@@ -44,9 +44,10 @@ public class CommonSteps extends TestBase{
         .then().log().headers();
         //.assertThat().statusCode(200);
 		int actualStatus = testContext.response.getStatusCode();
-		if(actualStatus == 401) {
-			TestBase.headerMap.put("Authentication", null);
-		     AuthenticationsStep.bearerTokenAuthentication();						 
+		System.out.println("actualstatus: "+actualStatus);
+		if(actualStatus==401) {
+			//TestBase.headerMap.put("Authentication", null);
+		    // AuthenticationsStep.bearerTokenAuthentication();						 
 		}
 		
 		Assert.assertEquals(actualStatus, expectedStatus);
