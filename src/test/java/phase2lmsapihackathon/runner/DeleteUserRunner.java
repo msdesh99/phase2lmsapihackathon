@@ -4,7 +4,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-		tags=("@AusermoduleCRUD"),
+		tags=("@Bgetusermodule or @Ddeleteuserbyuserid"),
 		features = {"src/test/resources/features"},
 		glue= {"phase2lmsapihackathon.steps"},
 		plugin= {"pretty", "summary",
@@ -15,6 +15,6 @@ import io.cucumber.testng.CucumberOptions;
 		monochrome=false
 )
 
-public class EndtoEndRunner extends AbstractTestNGCucumberTests { 
+public class DeleteUserRunner extends AbstractTestNGCucumberTests { 
 
 }

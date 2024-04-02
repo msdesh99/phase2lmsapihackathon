@@ -4,7 +4,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-		tags=("@AusermoduleCRUD"),
+		tags=("@Bgetusermodule or @Cputuserrequest"),
 		features = {"src/test/resources/features"},
 		glue= {"phase2lmsapihackathon.steps"},
 		plugin= {"pretty", "summary",
@@ -13,8 +13,10 @@ import io.cucumber.testng.CucumberOptions;
 				 "json:target/cucumber/endtoend.json",
 				 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
 		monochrome=false
+		//strict=true,   //only juint?
+		//dryRun=false 
 )
 
-public class EndtoEndRunner extends AbstractTestNGCucumberTests { 
+public class PutUserRunner extends AbstractTestNGCucumberTests { 
 
 }

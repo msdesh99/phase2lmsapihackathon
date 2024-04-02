@@ -4,7 +4,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-		tags=("@Bgetusermodule or @Cputuserrequest"), //@AcreateuserPositive "), //@Bgetusermodule"), //@Bgetuserbyuserid1 or @Cputuserrequest"),//  or or  or @Ddeleteuserbyuserid"), //@putuserroleprogrambatchstatus"), //@createuserpositive"), //@getuserbyuserid1 or @putuserlogin"), //@putuserrequest"), //@putuupdateuserrolestatus2"), //@putupdateuserroleid"), // or @getuserbyuserid1"), // @getusersbyid"), //@putuserbyuseridpositive"), //@putupdateuserroleid"), //@putuserbyuseridpositive"), //@putupdateuserroleid"), //@putuserbyuseridpositive"), //@createuserpositive") @getusermodule"), //@getallusers or @getusersbyid" or @createuserpositive or @createUsers or  @getAllPrograms),
+		tags=("@Bgetusermodule"),
 		features = {"src/test/resources/features"},
 		glue= {"phase2lmsapihackathon.steps"},
 		plugin= {"pretty", "summary",

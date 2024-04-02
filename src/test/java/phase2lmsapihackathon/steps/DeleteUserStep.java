@@ -14,7 +14,7 @@ public class DeleteUserStep extends TestBase{
 	ResponseModel responseModel;
 	
 	public DeleteUserStep(TestContext testContext) throws IOException{
-	try{ //super();
+	try{ 
 		this.testContext = testContext;
 		RestAssured.baseURI = TestBase.endPoints.get("BaseUrl").toString();
 		this.responseModel = new ResponseModel();
@@ -25,7 +25,6 @@ public class DeleteUserStep extends TestBase{
 	
 	@When("User sends HTTP Request {string} with userId")
 	public void user_sends_http_request_with_user_id(String endpointUrl) {
-	    	//this.endpt = TestBase.endPoints.get(endpointUrl).toString();
 		this.userId = TestBase.dataMap.get("userId").toString();
 System.out.println("userId: "+this.userId);
 	    	testContext.response = testContext.request

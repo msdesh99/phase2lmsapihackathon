@@ -74,9 +74,6 @@ public class PutUserRequestStep extends TestBase{
 	}
 	@When("User sends {string} scenarios {string} for RoleStatus reads data from excel {string}")
 	public void user_sends_scenarios_for_role_status_reads_data_from_excel(String scenarioType, String endpointUrl, String sheetName) {
-			//System.out.println("retrive stored value: "+TestBase.dataMap.get("userId"));
-			//System.out.println("retrive stored value: "+TestBase.dataMap.get("roleId"));
-			//System.out.println("retrive stored value: "+TestBase.dataMap.get("userRoleStatus"));
 			this.scenarioType = scenarioType;
 		try {
 	    	 int totTestCases = XLUtility.getTotalScenarioCount(sheetName,fileName);
@@ -216,9 +213,6 @@ public class PutUserRequestStep extends TestBase{
        }
 	@Then("validate response")
 	public void validate_response() {
-		//System.out.println("in validation");
-		//System.out.println("sce: "+this.scenarioType);
-		//System.out.println("respo: "+testContext.response.body().path("message"));
 		try {
 		testContext.validResponse = testContext.response				
 									.then().log().body()
@@ -229,8 +223,6 @@ public class PutUserRequestStep extends TestBase{
 		int actualResponseCode = testContext.response.then().extract().statusCode();
 		System.out.println("In Assertion: Actual " + actualResponseCode + " Expected:"
 				+ Integer.valueOf(this.responseModel.getReqStatus()));
-		//System.out.println("actual:   "+testContext.response.body().path("message"));
-        //System.out.println("expected: "+this.responseModel.getMessage());  
         //if(!(this.scenarioType.contains("Positive")))
 		//Assert.assertEquals(testContext.response.body().path("message"),responseModel.getMessage());
 		} catch (Exception e) {

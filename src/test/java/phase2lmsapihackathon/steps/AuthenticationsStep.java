@@ -25,8 +25,6 @@ public class AuthenticationsStep extends TestBase{
 		
 	}
 	public static void bearerTokenAuthentication() throws IOException {
-		//token =null;
-		//logFile = TestBase.logFile;
 	   if(headerMap.get("Authorization")==null) {
 		   	 logFile = new PrintStream(new FileOutputStream(System.getProperty("user.dir")+"/logs/restassuredlog/logFile.txt"));
             RestAssured.config = RestAssured.config().logConfig(new LogConfig().defaultStream(logFile));

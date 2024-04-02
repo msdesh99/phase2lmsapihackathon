@@ -534,3 +534,8 @@
 [INFO ] 2024-04-01 19:52:41.119 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsersWithRole is Successfully <===>
 [INFO ] 2024-04-01 19:52:42.963 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUsersByRoleIdV2 is Successfully <===>
 [INFO ] 2024-04-01 19:52:43.910 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>
+[INFO ] 2024-04-02 02:33:11.069 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsers is Successfully <===>
+[INFO ] 2024-04-02 02:33:11.372 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllRoles is Successfully <===>
+[INFO ] 2024-04-02 02:33:13.930 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetAllUsersWithRole is Successfully <===>
+[INFO ] 2024-04-02 02:33:15.624 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUsersByRoleIdV2 is Successfully <===>
+[INFO ] 2024-04-02 02:33:16.659 [main] LoggerLoad - <===>Testcase for Get request with Endpoints: GetUserByUserId is Successfully <===>

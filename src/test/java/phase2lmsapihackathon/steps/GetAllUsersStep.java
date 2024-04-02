@@ -47,8 +47,6 @@ public class GetAllUsersStep extends TestBase{
 
      @When("User sends HTTPS Request {string} with userId")
      public void user_sends_https_request_with_user_id(String endpointUrl) {
-    	 //System.out.println("previous respo: "+ TestBase.dataMap.get("UserId"));     
-
     	 this.endpt = endpointUrl;
     	 sheetName = TestBase.endPoints.get("UserPositivePutScenario").toString();
     	 try {
@@ -111,11 +109,8 @@ public class GetAllUsersStep extends TestBase{
  			    		        .and()
  			    		        .extract()
  			    		        .path("user.userId");
- 	 			//System.out.println("userId: "+userIdRes);
- 	 			//System.out.println(testContext.response.body().path("user.userFirstName"));
-
+ 
  			}					              
- 		//	System.out.println("user obj: "+testContext.response.body().path("roles[0].roleId"));
  		 //  if(TestBase.dataMap.get("userId").toString()==null)	
   			TestBase.dataMap.put("userId", testContext.response.body().path("user.userId"));
   			TestBase.dataMap.put("roleId", testContext.response.body().path("roles[0].roleId"));

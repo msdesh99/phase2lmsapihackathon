@@ -35,8 +35,6 @@ public class PostUserStepNew extends TestBase{
 			e.printStackTrace();
 		}	
 	}
-	//@When("user sends request Body with details for {string} scenario from excel.")
-	//public void user_sends_request_body_with_details_for_scenario_from_excel(String scenarioType) throws JsonProcessingException {
 
 	    @When("user sends request Body with details for {string} scenario from excel for {string}.")
 		public void user_sends_request_body_with_details_for_scenario_from_excel_for(String scenarioType, String rowNo) {
@@ -113,43 +111,6 @@ public class PostUserStepNew extends TestBase{
 
 		}
 
-	/*	
-		this.scenarioType = scenarioType;
-		String sheetName;
-		//this.authStatus = authStatus;
-
-		if (this.scenarioType.contentEquals("negative")) {
-			sheetName = Endpoints.postandputNegativeScenarioSheet;
-		} else
-			sheetName = Endpoints.postPositiveScenarioSheet;
-		try {
-			totalTC = UserRequestBody.getPositiveScenarioCount(sheetName,Endpoints.dataFile);
-			//for(int i=0;i<totalTC; i++) {
-				//this.request = RestAssured.given();
-			//obj = UserRequestBody.GetPostRequestBody(sheetName, Endpoints.dataFile, this.testcaseNo);
-			//obj = UserRequestBody.GetPostRequestBody(sheetName, Endpoints.dataFile,i);
-			obj = UserRequestBody.GetPostRequestBody(sheetName, Endpoints.dataFile,1);
-
-
-			user = (User) obj[0];
-			responseModel = (ResponseModel) obj[1];
-			ObjectMapper mapper = new ObjectMapper();
-			String json = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(user);
-			this.response = request.when().body(json)
-					// .formParam("userInfo",json)
-					.post(Endpoints.postUserEndpoint);
-			System.out.println(
-					"ExpectedResponse-->>>" + responseModel.getStatus() + " " + responseModel.getStatusMessage());
-			System.out.println("ActualResponse-->>>" + response.asString());
-			LoggerLoad.logInfo("TestCase:" + testcaseNo + " " + authStatus + "-Create user POST Request with  "
-					+ scenarioType + " Scenario");
-			//}	
-
-		} catch (Exception ex) {
-			LoggerLoad.logInfo(ex.getMessage());
-			ex.printStackTrace();
-		} */
-	//}
 	@Then("User receives {int} Create Status with response body.")
 	public void user_receives_create_status_with_response_body(int int1) {
 		try {
@@ -169,31 +130,4 @@ public class PostUserStepNew extends TestBase{
 		      ex.printStackTrace();  
 		}      	
 		}
-
-
-
-/*		@Then("user receives Status with response body.")
-	public void user_receives_status_with_response_body() {
-		try {
-			if (this.authStatus.contentEquals("NoAuth")) {
-				response.then().log().all().assertThat().statusCode(401).header("Content-type", "application/json");
-			} else {
-				String jsonString = response.asString();
-				Assert.assertNotEquals(jsonString, null);
-				int actualResponseCode = response.then().extract().statusCode();
-				
-				userId = (int) (this.scenarioType.contentEquals("positive")?response.body().path("user_id")
-						:0);
-				System.out.println("In Assertion: Actual " + actualResponseCode + " Expected:"
-						+ Integer.valueOf(responseModel.getStatus()));
-				System.out.println("User Details--->>>>>" + jsonString);
-				Assert.assertTrue((actualResponseCode == Integer.valueOf(responseModel.getStatus())));
-			}
-		} catch (Exception ex) {
-			LoggerLoad.logInfo(ex.getMessage());
-			ex.printStackTrace();
-		}
-
-	}*/
-
 }
