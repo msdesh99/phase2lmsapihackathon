@@ -2,12 +2,17 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite started-at="2024-03-28T18:09:34 GMT-04:00" name="Default suite" finished-at="2024-03-28T18:09:39 GMT-04:00" duration-ms="4342">
+=======
+  <suite started-at="2024-03-28T17:24:40 GMT-04:00" name="Default suite" finished-at="2024-03-28T17:24:44 GMT-04:00" duration-ms="3814">
+>>>>>>> 3176bcc (new commit)
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:phase2lmsapihackathon.runner.Runner@5386659f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
+<<<<<<< HEAD
     <test started-at="2024-03-28T18:09:34 GMT-04:00" name="Default test" finished-at="2024-03-28T18:09:39 GMT-04:00" duration-ms="4342">
       <class name="phase2lmsapihackathon.runner.Runner">
         <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:phase2lmsapihackathon.runner.Runner@5386659f]" started-at="2024-03-28T18:09:34 GMT-04:00" name="setUpClass" finished-at="2024-03-28T18:09:35 GMT-04:00" duration-ms="231" status="PASS">
@@ -15,13 +20,26 @@
             <param index="0">
               <value>
                 <![CDATA[org.testng.TestRunner@71e2c6d8]]>
+=======
+    <test started-at="2024-03-28T17:24:40 GMT-04:00" name="Default test" finished-at="2024-03-28T17:24:44 GMT-04:00" duration-ms="3814">
+      <class name="phase2lmsapihackathon.runner.Runner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:phase2lmsapihackathon.runner.Runner@5386659f]" started-at="2024-03-28T17:24:40 GMT-04:00" name="setUpClass" finished-at="2024-03-28T17:24:40 GMT-04:00" duration-ms="205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@71f0806b]]>
+>>>>>>> 3176bcc (new commit)
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:phase2lmsapihackathon.runner.Runner@5386659f]" started-at="2024-03-28T18:09:35 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-28T18:09:38 GMT-04:00" duration-ms="3581" status="PASS">
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:phase2lmsapihackathon.runner.Runner@5386659f]" started-at="2024-03-28T17:24:40 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-28T17:24:43 GMT-04:00" duration-ms="2826" status="PASS">
+>>>>>>> 3176bcc (new commit)
           <params>
             <param index="0">
               <value>
@@ -37,7 +55,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:phase2lmsapihackathon.runner.Runner@5386659f]" started-at="2024-03-28T18:09:38 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-28T18:09:39 GMT-04:00" duration-ms="438" status="PASS">
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:phase2lmsapihackathon.runner.Runner@5386659f]" started-at="2024-03-28T17:24:43 GMT-04:00" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-03-28T17:24:44 GMT-04:00" duration-ms="737" status="PASS">
+>>>>>>> 3176bcc (new commit)
           <params>
             <param index="0">
               <value>
@@ -53,7 +75,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="tearDownClass()[pri:0, instance:phase2lmsapihackathon.runner.Runner@5386659f]" started-at="2024-03-28T18:09:39 GMT-04:00" name="tearDownClass" finished-at="2024-03-28T18:09:39 GMT-04:00" duration-ms="7" status="PASS">
+=======
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:phase2lmsapihackathon.runner.Runner@5386659f]" started-at="2024-03-28T17:24:44 GMT-04:00" name="tearDownClass" finished-at="2024-03-28T17:24:44 GMT-04:00" duration-ms="2" status="PASS">
+>>>>>>> 3176bcc (new commit)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
