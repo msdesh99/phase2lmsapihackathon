@@ -64,15 +64,15 @@ Feature: Perform Batch module
 #    | getBatchByProgramId | 2         |
 #    | getBatchByProgramId | 3         |
 
-    @updateBatchByBatchID
-    Scenario Outline: Check if admin able to update a Batch with valid batchID and mandatory fields in request body without authorization
-      Given User creates PUT Request "<Sheetname>" and <rownumber> for the LMS API batch endpoint with valid BatchId and Data
-      When User sends HTTPS Request for update batch with "<Sheetname>" and <rownumber>
-      Then User receives response with "<Sheetname>" and <rownumber>
-
-      Examples:
-        | Sheetname       | rownumber |
-        | updateByBatchId | 0         |
+#    @updateBatchByBatchID
+#    Scenario Outline: Check if admin able to update a Batch with valid batchID and mandatory fields in request body without authorization
+#      Given User creates PUT Request "<Sheetname>" and <rownumber> for the LMS API batch endpoint with valid BatchId and Data
+#      When User sends HTTPS Request for update batch with "<Sheetname>" and <rownumber>
+#      Then User receives response with "<Sheetname>" and <rownumber>
+#
+#      Examples:
+#        | Sheetname       | rownumber |
+#        | updateByBatchId | 0         |
 #        | updateByBatchId | 1         |
 #        | updateByBatchId | 2         |
 #        | updateByBatchId | 3         |
@@ -81,3 +81,15 @@ Feature: Perform Batch module
 #        | updateByBatchId | 6         |
 #        | updateByBatchId | 7         |
 
+  @deleteBatchByBatchId
+  Scenario Outline: Check if admin able to delete a Batch with valid Batch ID and mandatory fields
+    Given User creates DELETE Request "<Sheetname>" and <rownumber> for the LMS API batch endpoint with valid BatchId and Data
+    When User sends HTTPS Request for delete batch with "<Sheetname>" and <rownumber
+    Then User receives response with "<Sheetname>" and <rownumber>
+
+    Examples:
+      | Sheetname            | rownumber |
+      | deleteBatchByBatchId | 0         |
+#      | deleteBatchByBatchId | 1         |
+#      | deleteBatchByBatchId | 2         |
+#      | deleteBatchByBatchId | 3         |

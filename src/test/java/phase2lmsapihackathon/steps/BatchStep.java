@@ -192,6 +192,26 @@ public class BatchStep extends TestBase{
     public void user_sends_https_request_for_update_batch_with_and(String sheetName, Integer rowNum) {
     }
 
+    @Given("User creates DELETE Request {string} and {int} for the LMS API batch endpoint with valid BatchId and Data")
+    public void user_creates_delete_request_and_for_the_lms_api_batch_endpoint_with_valid_batch_id_and_data(String sheetName, Integer rownumber) throws IOException, InvalidFormatException {
+        List<Map<String, String>> data = excelUtil.getData(TestBase.EXCEL_FILE, sheetName);
+        if (data.get(rownumber).get("AuthStatus").equalsIgnoreCase("withBasicAuth")) {
+            try {
+                AuthenticationsStep.bearerTokenAuthentication();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+            response = RestAssured.given().headers(TestBase.headerMap)
+                    .when().delete();
+            response.then().log().all();
+        }
+    }
+
+    @When("User sends HTTPS Request for delete batch with {string} and {int}")
+    public void user_sends_https_request_for_delete_batch_with_and_rownumber(String sheetName,Integer rowNum ) {
+
+    }
+
 
 
 
